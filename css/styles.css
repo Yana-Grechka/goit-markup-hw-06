@@ -598,7 +598,6 @@ header {
   margin: 0 auto;
 }
 
-
 .icon-t {
   fill: #ffffff;
   margin-left: 10px;
@@ -668,7 +667,6 @@ h6 {
   margin: 0;
 }
 
-
 /* Оформление модального окна */
 
 .backdrop {
@@ -713,14 +711,13 @@ h6 {
   border-radius: 50%;
   background-color: #ffffff;
   transition: fill 250ms var(--cubic);
-  
 }
 
-.modal-submit{
+.modal-submit {
   margin-top: 30px;
 }
 
-.modal-btn:hover{
+.modal-btn:hover {
   fill: var(--blue-text);
 }
 
@@ -771,7 +768,7 @@ h6 {
   transition: border 250ms var(--cubic);
 }
 
-.input-form:focus{
+.input-form:focus {
   border: 1px solid var(--blue-text);
 }
 
@@ -835,14 +832,15 @@ textarea:focus {
   width: 16px;
   height: 15px;
   margin-right: 8px;
-  transition: fill 250ms var(--cubic), border 250ms var(--cubic), background-color 250ms var(--cubic), background-image 250ms var(--cubic) ;
+  transition: fill 250ms var(--cubic), border 250ms var(--cubic),
+    background-color 250ms var(--cubic), background-image 250ms var(--cubic);
 }
 
-.checkbox:checked + .checkbox-icon{
+.checkbox:checked + .checkbox-icon {
   background-color: var(--blue-text);
   background-origin: border-box;
   border: 2px solid var(--blue-text);
-  background-image: url('/images/check.svg');
+  background-image: url('../images/check.svg');
   background-size: contain;
 }
 
